@@ -41,6 +41,7 @@ my $params = {};
 $req->fake_module('Catalyst::Request');
 $req->mock(params => sub { $params });
 $c->mock(req => sub { $req });
+$c->mock(debug => sub { 0 });
 $c->mock(default_auth_store => sub { } );
 $c->mock(set_authenticated  => sub { } );
 

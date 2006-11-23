@@ -6,7 +6,7 @@ use NEXT;
 use Yahoo::BBAuth;
 use UNIVERSAL::require;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 sub setup {
     my $c = shift;
